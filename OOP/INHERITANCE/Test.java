@@ -1,4 +1,4 @@
-package OOP.OBJ.INHERITANCE;
+package OOP.INHERITANCE;
 
 public class Test {
 

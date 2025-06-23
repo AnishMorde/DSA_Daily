@@ -1,4 +1,4 @@
-package OOP.OBJ.ENCAPSULATION;
+package OOP.ENCAPSULATION;
 
 public class Car {
    private String color;

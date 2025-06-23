@@ -1,4 +1,4 @@
-package OOP.OBJ.constructor;
+package OOP.constructor;
 
 public class Book {
 
