@@ -24,17 +24,30 @@ public class Main {
 
 //        System.out.println( list.deleteLast());
 
-      DLL list = new DLL();
+//      DLL list = new DLL();
+//
+//      list.insertFirst(10);
+//      list.insertFirst(15);
+//      list.insertFirst(20);
+//      list.insertFirst(25);
+//      list.insertFirst(14);
+//      list.insertFirst(454);
+//      list.insertFirst(243);
+//      list.insertFirst(232);
+//      list.insertLast(777);
+//      list.display();
 
-      list.insertFirst(10);
-      list.insertFirst(15);
-      list.insertFirst(20);
-      list.insertFirst(25);
-      list.insertFirst(14);
-      list.insertFirst(454);
-      list.insertFirst(243);
-      list.insertFirst(232);
-      list.insertLast(777);
+      CLL list = new CLL();
+
+      list.insert(10);
+      list.insert(12);
+      list.insert(14);
+      list.insert(16);
+      list.insert(18);
+      list.insert(20);
+
+      list.delete(16);
+
       list.display();
 
 
@@ -42,5 +55,10 @@ public class Main {
 
 
 
-    }
+
+
+
+
+
+  }
 }
