@@ -10,6 +10,30 @@ public class LL {
         this.size = 0;
     }
 
+    public void deleteNthNodeEnd(int n){
+        Node slow  = head;
+        Node fast = head;
+
+        for(int  i=1;i<=n;i++){
+            fast = fast.next;
+        }
+
+        if(fast==null){
+            head = head.next;
+            size--;
+            return;
+        }
+
+        while(fast.next!=null){
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+
+        slow.next = slow.next.next;
+        size--;
+    }
+
     public int delete(int index){
         if(index==0){
            return deleteFirst();
@@ -36,7 +60,7 @@ public class LL {
             deleteFirst();
         }
         Node lastSec = get(size-2);
-        int val = tail.value;;
+        int val = tail.value;
         tail  = lastSec;
         tail.next = null;
 
