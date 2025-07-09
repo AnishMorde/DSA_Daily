@@ -43,6 +43,7 @@ public class DLL {
         if(head == null){
             return;
         }
+
         revList(head.next);
         System.out.print(head.val + " -> ");
 
